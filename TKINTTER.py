@@ -1,12 +1,13 @@
 import tkinter as tk  
 
 def saludar():
-    nombre = entrada.nombre,get()
+    nombre = entrada_nombre.get()
     edad = entrada_edad.get()
     etiqueta_resultado.config(text=f"Hola {nombre} y tienes {edad} años")
     
 ventana = tk.Tk()
 ventana.title("Saludo")
+9
 ventana.geometry("350x150")
 (ventana.config(bg="brown"))
 
